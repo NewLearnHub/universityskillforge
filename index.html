@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+    <title>RGUKT-ONGOLE</title>
+    <link rel="stylesheet" href="./css/alldevices.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    
+
+    <script src="https://kit.fontawesome.com/bdb9c44a6d.js" crossorigin="anonymous"></script>
+
+  <style>
+.nav.bgcolor{
+  background-color: aqua;
+}
+body{
+  margin: 0;
+  padding:0;
+}
+
+.logo{
+    font-size:40px;
+    color: white;
+    padding-left:30px;
+   /* padding-right: 30px;*/
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Tangerine', cursive; 
+}
+.pl{
+    padding-left: 45%;
+}
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/ssn.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    color: #fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.ifs{
+    font-size: 18px;
+}
+ul li i{
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.bg{
+    background-color: black;
+    color:white;
+}
+ul li .bg:hover{
+    color:white;
+    background-color: #333;
+}
+.fr{
+    float:right;
+    padding-left: 6px;
+    margin-top: 2px;
+
+}
+.dropdown-menu{
+  background-color: black;
+}
+.dropdown1{
+    display:none;
+}
+.dropdown li:hover .dropdown1{
+    display:block;
+    position: absolute;
+    top:6px;
+    border-radius: 8px;
+    left:150px;
+   /* width: 80%;*/
+    /*padding:21px;*/
+}
+.dropdown1{
+  background-color: black;
+  width:100%;
+}
+.dropdown1 ul a{
+  padding-left: 10px;
+}
+.dropdown1 ul li{
+  padding:5px;
+}
+.dropdown1 ul li:hover{
+  background-color: #333;
+}
+.dropdown1 ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/*Career hover*/
+/*.careerhover{
+    display: none;
+}
+.careerhover ul{
+    display:block;
+
+}
+ ul li:hover .careerhover{
+    display:block;
+    position: absolute;
+    border-radius: 8px;
+    padding-right: 20px;
+    background-color: black;
+}
+.careerhover ul li{
+    padding: 5px;
+}
+.careerhover ul{
+  padding-left: 20px;
+}
+.careerhover ul li:hover{
+    background-color:#333;
+}*/
+.icfs{
+  font-size: 15px;
+}
+.pra{
+  padding-right: 80px;
+}
+.height{
+  height:400px;
+  width:100%;
+
+}
+
+abbr[title]{
+  text-decoration: none;
+}
+.fcenter{
+  text-align: center;
+  font-size: 30px;
+  background-color: wheat;
+}
+
+     /* Media query for laptops and larger screens */
+ @media (min-width: 1025px) {
+    .careerhover{
+    display: none;
+}
+.careerhover ul{
+    display:block;
+
+}
+ ul li:hover .careerhover{
+    display:block;
+    position: absolute;
+    border-radius: 8px;
+    padding-right: 20px;
+    background-color: black;
+}
+.careerhover ul li{
+    padding: 5px;
+}
+.careerhover ul{
+  padding-left: 20px;
+}
+.careerhover ul li:hover{
+    background-color:#333;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+          
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 767px) {
+            .dropdown-toggle::after {
+  display: none;
+}
+            
+
+}
+
+.text-box h1{
+    font-weight: bold;
+    font-size: 50px;
+}  
+.text-box p{
+    font-weight: bold;
+    font-size: 21px;
+}          
+.btn{
+    color: #fff;
+}     
+.text-box a button:hover{
+    color: black;
+    background-color:darkorange;
+
+}
+.cardflex{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.card{
+    border:1px solid grey;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.paddingright{
+    padding-right: 50px;
+
+}
+.card1{
+    border: none;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+h5{
+    text-align: center;
+}
+/* Increase the transition duration for the carousel 
+.carousel-inner {
+  transition-duration: 1.5s;
+}*/
+
+
+.carouselBorder{
+  padding:5px;
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+.carouselhw{
+  width:100%;
+  height: 400px;
+
+}
+
+
+
+/* Style for the carousel control buttons on hover */
+/*.carousel-control-prev:hover,
+.carousel-control-next:hover {
+background-color:white;
+
+}*/
+
+.scroll3imgbutton{
+  width: 100%;
+}
+
+/* Increase the size of the carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+   width: 70px; /* Adjust the width as needed */
+   height: 70px; /* Adjust the height as needed */
+  /* background-color:blue;*/
+}
+.absoulte{
+    color: #fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.relative{
+    position: relative;
+    
+}
+.absoulte1{
+    position: absolute;
+      top:10%;
+        color:black;
+        font-weight: bold;
+        /*font-family:Arial, Helvetica, sans-serif;*/
+        left:50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        
+
+}
+.cpl:hover{
+    opacity: 0.4;
+    
+    
+}
+.mainfooterflex{
+    display: flex;
+    position: absolute;
+      top:20%;
+      left:5%;
+      
+}
+.footerflex{
+    padding-right:100px;
+}
+.list-group{
+    padding-left:20px;
+}
+.fpb{
+    padding-bottom: 10px;
+}
+.fpb:hover{
+    background-color:#333;
+    color: #fff;
+    transform: scale(1.05);
+}
+.ci{
+    color: black;
+    font-weight: bold;
+}
+.cflex{
+    display: flex;
+    justify-content:space-between;
+}
+.fh3{
+  font-size: 21px;
+}
+.fid{
+  font-size: 30px;
+}
+.fimage{
+height:300px;
+width:100%
+}
+
+
+
+/* Default styles */
+
+/* For smartphones (portrait and landscape) */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    /* Styles for smartphones */
+    .smartphonecolor{
+    background-color: #fff;
+}
+nav{
+  
+    background-color: #89CFF0;
+}
+.text-box{
+    color: #fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.pl{
+    padding-left: 25px;
+}
+.text-box h1{
+    font-weight: bold;
+    font-size: 19px;
+} 
+.text-box p{
+    font-weight: bold;
+    font-size: 11px;
+} 
+.btn{
+    font-size: 11px;
+    background-color: aqua;
+    color: black;
+}
+.uheading{
+  font-size: 19px;
+}
+
+.cardflex{
+    display:flex;
+    padding-left: 40px;
+
+   flex-direction: column;
+
+}
+.card{
+    border:1px solid grey;
+    height:auto;
+    
+}
+.card1{
+    border: none;
+}
+.paddingright{
+  padding-bottom: 21px;
+}
+.card:hover{
+    transform:none;
+}
+.uheading{
+  font-size:21px;
+}
+.ucardtitle{
+  font-size: 19px;
+
+}
+.ucardtext{
+  font-size: 14px;
+}
+.cardflex1{
+  display: flex;
+  overflow-x: scroll;
+}
+.carouselhw{
+  height: 200px;
+}
+.cpl:hover{
+    opacity: 1;
+}
+.fh3{
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fpb{
+  font-size: 6px;
+}
+.footerflex{
+    padding-right:10px;
+}
+.fpb:hover{
+  transform: none;
+  
+}
+.list-group{
+    padding-left:8px;
+}
+.fimage{
+height:180px;
+width:100%
+}
+.fid{
+  font-size: 16px;
+}
+    
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* For tablets, iPads (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    .smartphonecolor{
+    background-color: #fff;
+}
+.pl{
+    padding-left: 600px;
+}
+.text-box h1{
+    font-weight: bold;
+    font-size: 40px;
+} 
+.btn{
+background-color: aqua;
+    color: black;
+
+}
+.dncard{
+  display: none;
+}
+.card1{
+    border: none;
+}
+
+.cardflex{
+  display: flex;
+  padding-left: 100px;
+  
+  overflow-x:scroll;
+}
+.carouselhw{
+  height: 300px;
+}
+.cpl:hover{
+    opacity: 1;
+}
+
+.fh3{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footerflex{
+    padding-right:30px;
+}
+.fpb:hover{
+  transform: none;
+}
+.fid{
+  font-size: 21px;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+
+
+
+
+}
+
+
+
+
+
+
+/* For laptops and desktops */
+@media only screen and (min-width: 1025px) {
+    /* Styles for laptops and desktops */
+    .smartphonecolor{
+    background-color: #fff;
+}
+}
+
+
+/* For smartwatches */
+@media only screen and (max-width: 319px) {
+    /* Styles for smartwatches */
+    .logo{
+        font-size:10px;
+    color: white;
+   /* padding-right: 30px;*/
+  /*  font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Tangerine', cursive;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 0px;
+    }
+    .smartphonecolor{
+    background-color: #fff;
+}
+    nav{
+        background-color: #89CFF0;
+        
+    }
+    .watchbutton{
+        font-size: 5px;
+    }
+    .pl{
+      padding-left: 0px;
+    }
+    .ifs{
+    font-size:6px;
+}
+ul li i{
+    padding-right: 2px;
+    padding-left: 5px;
+}
+.icfs{
+  font-size:5px;
+  padding: 0px 0px 1px 6px;
+}
+.text-box{
+    color: #fff;
+    top:65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-weight: bold;
+    font-size: 8px;
+} 
+.text-box p{
+    font-weight: bold;
+    font-size: 4px;
+
+
+}
+.btn{
+  display: none;
+}
+.none{
+  display: none;
+}
+
+
+
+}
+
+/*@media only screen and (max-width:450px) {
+  .cardflex{
+    padding-left: 150px;
+  }
+  
+}*/
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+
+<section class="header">
+    <nav class="navbar fixed-top navbar-expand-lg" id="jsscroll"><!--bg-info-- fixed-top>-->
+            <div class="container-fluid">
+        
+                <div class="logo">
+                <!--<img src="./images/universitynavbarimage.jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">-->Rgukt
+                </div>
+
+                <button class="navbar-toggler smartphonecolor watchbutton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse pl" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white ifs" aria-current="page" href="./index.html"><i class="fa-solid fa-house"></i><b>Home</b></a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white ifs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-book"></i>  <b>Content</b>
+                        </a>
+                        <ul class=" careerhover dropdown-menu">
+                          <li><a class="dropdown-item bg icfs" href="./E1Content.html">E1-Content</a></li>
+                          <li><a class="dropdown-item bg icfs" href="./E2Content.html">E2-Content</a></li>
+                          <li><a class="dropdown-item bg icfs" href="./E3Content.html">E3-Content</a></li>
+                          <li><a class="dropdown-item bg icfs" href="./E4Content.html">E4-Content</a></li>
+              
+                        </ul>
+                      </li>
+
+
+
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white ifs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-graduation-cap "></i><b>Career</b>
+                          </a>
+                          <ul class=" careerhover dropdown-menu">
+                            <li><a class="dropdown-item bg icfs" href="./updating.html" target="_blank">B.tech</a></li>
+                            <li><a class="dropdown-item bg icfs" href="./updating.html" target="_blank">Gate</a></li>
+                            <li><a class="dropdown-item bg icfs" href="./MsinUS.html" target="_blank">Masters</a></li>
+                            <li><a class="dropdown-item bg icfs" href="./stockmarket/stockmarket.html" target="_blank">Stock Market</a></li>
+                
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white ifs" aria-current="page" href="./loginpage.html"><i class="fa-regular fa-comment"></i><b>Login</b></a>
+                          </li>
+
+
+                          <li class="nav-item dropdown max-widths">
+                                <a class="nav-link dropdown-toggle text-white ifs" href="#"><i class="fa-solid fa-phone "></i><b>Contact</b></a>
+                          </li>
+                </ul>        
+
+
+
+            
+                  
+                </div>
+        
+              
+            </div>
+
+           
+            
+
+
+      </nav>
+      <div class="text-box">
+        <h1>
+            RGUKT IIIT ONGOLE
+        </h1>
+        <p>Six Years B.tech integrated course</p>
+        <a href="#education"><button type="button" class="btn" id="educationLink"      style="border:1px solid white">View us to know more</button></a>
+    </div>
+    
+</section>
+   <div class="none">
+        <div >
+            <h1 class="uheading" id="education" style="text-align: center;padding:30px 0px 20px 0px;" >
+                University Providing Courses
+            </h1>
+            
+        </div>
+     
+
+     <div class="cardflex">
+        <div class="paddingright">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/fullstack.jpg" class="card-img-top ipadsuimage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ucardtitle">Full Stack Developer</h5>
+              <p class="card-text ucardtext">Full Stack Development reating, testing, and deploying a complete web application from start to finish.....</p>
+              <center><a href="#" class="btn btn-primary ubtn">More info...</a></center>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="paddingright">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/competetive.jpg" class="card-img-top ipadsuimage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ucardtitle">Programming Languages</h5>
+              <p class="card-text ucardtext" style="padding-bottom: 5px;">It exposes various data structures and algorithms which help us better understand the complexity of problems</p>
+            <center>  <a href="#" class="btn btn-primary ubtn"> More info...</a></center>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card dncard" style="width: 18rem;">
+            <img src="./images/gate.png" style="height: 135px;"class="card-img-top ipadsuimage" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ucardtitle">Gate Courses</h5>
+              <p class="card-text ucardtext" style="padding-bottom: 25px;">who want admission to Master's programmes or postgraduate engineering (ME/M.Tech)</p>
+            <center> <a href="#" class="btn btn-primary ubtn">More info...</a></center>
+            </div>
+          </div>
+
+
+
+     </div>
+
+       
+   <!--University Facilities-->
+   <div>
+    <h1 style="text-align: center;padding:30px 0px 20px 0px;">
+        University Facilities
+    </h1>
+    
+</div>
+
+
+<div class="cardflex cardflex1">
+
+
+<div class="paddingright">
+<div class="card card1" style="width: 18rem;">
+    <img src="./images/library.png" class="card-img-top ufimage" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Library</h5>
+      <p class="card-text"></p>
+    <!-- <a href="#" class="btn btn-primary">More info...</a>-->
+    </div>
+  </div>
+
+</div>
+
+<div class="paddingright">
+    <div class="card card1" style="width: 18rem;">
+        <img src="./images/playground.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Play Ground</h5>
+          <p class="card-text"></p>
+        <!--<a href="#" class="btn btn-primary">More info...</a>-->
+        </div>
+      </div>
+    
+    </div>
+
+
+
+
+    <div class="paddingright">
+        <div class="card card1" style="width: 18rem;">
+            <img src="./images/hospital.jpeg" style="height:190px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hospital</h5>
+              <p class="card-text"></p>
+            <!--<a href="#" class="btn btn-primary">More info...</a>-->
+            </div>
+          </div>
+        
+        </div>
+
+
+
+
+
+
+</div><!--flex ending-->
+
+
+
+
+<div class="cardflex">
+
+
+    <div class="paddingright">
+    <div class="card card1" style="width: 18rem;">
+        <img src="./images/canteen.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Canteen</h5>
+          <p class="card-text"></p>
+        <!--<a href="#" class="btn btn-primary">More info...</a>-->
+        </div>
+      </div>
+    
+    </div>
+    
+    <div class="paddingright">
+        <div class="card card1" style="width: 18rem;">
+            <img src="./images/hostel.jpeg" style="height:190px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hostel</h5>
+              <p class="card-text"></p>
+            <!--<a href="#" class="btn btn-primary">More info...</a>-->
+            </div>
+          </div>
+        
+        </div>
+    
+    
+    
+    
+        <div class="paddingright">
+            <div class="card card1" style="width: 18rem;">
+                <img src="./images/classrooms.jpg" style="height:190px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Classrooms</h5>
+                  <p class="card-text"></p>
+                <!--<a href="#" class="btn btn-primary">More info...</a>-->
+                </div>
+              </div>
+            
+            </div>
+    
+    
+    
+    
+    
+    
+    </div><!--flex ending-->
+
+
+
+    <div class="cardflex">
+
+
+        <div class="paddingright">
+        <div class="card card1" style="width: 18rem;">
+            <img src="./images/mess.png" style="height:190px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mess</h5>
+              <p class="card-text"></p>
+            <!--<a href="#" class="btn btn-primary">More info...</a>-->
+            </div>
+          </div>
+        
+        </div>
+        
+        <div class="paddingright">
+            <div class="card card1" style="width: 18rem;">
+                <img src="./images/labs.jpeg" style="height:190px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Labs</h5>
+                  <p class="card-text"></p>
+                <!--<a href="#" class="btn btn-primary">More info...</a>-->
+                </div>
+              </div>
+            
+            </div>
+        
+        
+        
+        
+            <div class="paddingright">
+                <div class="card card1" style="width: 18rem;">
+                    <img src="./images/clubs.jpeg" style="height:190px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Clubs</h5>
+                      <p class="card-text"></p>
+                    <!--<a href="#" class="btn btn-primary">More info...</a>-->
+                    </div>
+                  </div>
+                
+                </div>
+        
+        
+        
+        
+        
+        
+        </div><!--flex ending-->
+    
+
+
+        <div>
+          <h1 style="text-align: center;padding:30px 0px 20px 0px;">
+          <i>Other Universities</i>
+          </h1>
+          
+      </div>
+      
+      <!--coursoules-->
+      
+      <!--Scrolling Images -->
+      <div id="carouselExampleInterval" class="carousel slide carouselBorder" data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+      <h1 class="absoulte">SRIKAKULAM</h1>
+      <a href=""> <img src="./images/srikakulam.jpg" class="d-block w-100 carouselhw cpl" alt="..."></a>
+      
+      
+      </div>
+      <div class="carousel-item"   data-bs-interval="2000">
+      <h1 class="absoulte">NUZIVEDU</h1>
+      <a href=""><img src="./images/nazvids.png" class="d-block w-100 carouselhw cpl" alt="..."></a>
+      </div>
+      
+      <div class="carousel-item " data-bs-interval="2000">
+      <h1 class="absoulte">R.K Valley</h1>
+      <img src="./images/rkvalleyidu.jpeg" class="d-block w-100 carouselhw cpl" alt="...">
+      
+      </div>
+      
+      
+      
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+      </button>
+      </div><!--End of the scxrolling images section-->
+
+
+
+
+
+       
+      <div class="relative"> 
+        <div>   
+        <img class="fimage" src="./images/footer.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="absoulte1" >
+        <h1 style="font-size: 21px;">ABOUT RGUKT</h1>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="mainfooterflex">
+        <div class="footerflex" >
+            <ul class="list-group">
+                <h3 class="fh3" style="font-family: Arial, Helvetica, sans-serif;">Courses Links</h3>
+            <a href="" style="color: black;font-weight: bold;">    <li  class="list-group fpb">Full Stack</li></a>
+            <a href="" style="color: black;font-weight: bold;">   <li class="list-group fpb">C Language</li></a>
+            <a href="" style="color: black;font-weight: bold;">   <li class="list-group fpb" >C++ Lanuguage</li></a>
+            <a href="" style="color: black;font-weight: bold;">   <li class="list-group fpb" >Python Language</li></a>
+                <a href="" style="color: black;font-weight: bold;">    <li class="list-group fpb">SQL+MYSQL</li></a>
+              </ul>
+              </div>
+        
+        
+              <div class="footerflex" >
+                <ul class="list-group">
+                    <h3 class="fh3" style="font-family:Arial, Helvetica, sans-serif" >Quick Links</h3>
+                <a href="https://rguktsklm.ac.in/" style="color: black;font-weight: bold;">    <li  class="list-group fpb">Srikakulam</li></a>
+                <a href="https://www.rguktong.ac.in/" style="color: black;font-weight: bold;">   <li class="list-group fpb">Ongole</li></a>
+                <a href="https://rguktn.ac.in/" style="color: black;font-weight: bold;">   <li class="list-group fpb" >Nuzivedu</li></a>
+                <a href="https://www.rguktrkv.ac.in/" style="color: black;font-weight: bold;">   <li class="list-group fpb" >R.K Valley</li></a>
+                    <a href="https://www.rgukt.ac.in/" style="color: black;font-weight: bold;">    <li class="list-group fpb">Basara</li></a>
+                  </ul>
+                  </div>
+        
+        
+        
+        
+                  <div class="footerflex" >
+                    <ul class="list-group">
+                        <h3 class="fh3" style="font-family: Arial, Helvetica, sans-serif;" >Student Links</h3>
+                    <a href="http://nexus.rguktong.ac.in/Nexus/"  style="color: black;font-weight: bold;">    <li  class="list-group fpb">Nexus website</li></a>
+                    <a href="https://www.rguktong.ac.in/" style="color: black;font-weight: bold;">   <li class="list-group fpb">Ongole website</li></a>
+                   <!--<a href="" style="color: black;font-weight: bold;">   <li class="list-group fpb" >.....</li></a>
+                    <a href="" style="color: black;font-weight: bold;">   <li class="list-group fpb" >.....</li></a>
+                        <a href="" style="color: black;font-weight: bold;">    <li class="list-group fpb">.....</li></a>-->
+                      </ul>
+                      </div>
+        
+        
+        
+                      <div class="footerflex" >
+                        <ul class="list-group">
+                            <h3 class="fh3" style="font-family: Arial, Helvetica, sans-serif;">Contact Us</h3>
+                            <div class="cflex">
+                               
+                         <a href=""><i class="fa-brands fa-square-facebook fid" style="color: blue;padding-right:8px;"></i></a>
+                         <a href="">   <i class="fa-brands fa-whatsapp fid" style="color: green;padding-right:8px;"></i></a>
+                            <a href=""><i class="fa-brands fa-square-x-twitter fid" style="color: black;padding-right:8px;"></i></a>
+                           <a href=""> <i class="fa-brands fa-linkedin fid"  style="color:#0077b5;padding-right:8px;"></i></a>
+        
+                           </div><!--End of cflex-->
+                           
+                      
+                          </ul>
+                          </div>
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        
+        
+        </div><!--End of the relative position-->
+      
+      
+      
+     
+      
+      
+      
+
+
+
+
+  
+
+</div>
+
+
+<script>
+  window.addEventListener('scroll', function() {
+    var navbar = document.getElementById('jsscroll');
+    
+    // Change background color when scrolled past 100 pixels
+    if (window.scrollY > 100) {
+      navbar.style.backgroundColor = '#3498db'; // Change to desired background color
+    } else {
+      navbar.style.backgroundColor = 'transparent'; // Revert to initial background color
+    }
+  });
+  </script>
+  
+
+
+
+    
+</body>
+
+
+</html>
+

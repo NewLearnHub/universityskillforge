@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masters</title>
+    <link rel="stylesheet" href="./css/web.css">
+
+
+    <style>
+        body{
+  background-color: #f2f2f2;
+  background-image: url('./images/masters.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width:1350px){
+    .maxflex,.width{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+}
+.maxflex{
+    display: flex;
+    justify-content: space-between;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(to left, #36d1dc,#5b86e5);
+    text-align: center;
+   height:400px;
+    width: 300px;
+    border:2px solid black;
+    border-radius:21px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.width{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.boxh{
+    font-size: 35px;
+    padding-top: 10px;
+}
+.boxlist{
+    font-size: 20px;
+}
+.boxol{
+    list-style: inside;
+}
+.plist{
+    padding:5px 21px 10px 0px;
+}
+.boxbutton{
+   padding-top: 50px;
+
+}
+
+/*ALL BOXES BUTTON STYLES*/
+.btninnerbox1,.btninnerbox2,.btninnerbox3,.btninnerbox4,.btninnerbox5,.btninnerbox6,.btninnerbox7
+,.btninnerbox8{
+    color:white;
+    background-image:linear-gradient(to left,#f2994a,#f2c94c);
+    border-radius: 21px;
+    padding:10px 10px;
+}
+
+.masters{
+    position: relative;
+}
+.mastertext{
+    position: absolute;
+    color:#FDAC53;
+    font-size: 21px;
+    top:15%;
+    left:2%;
+    padding-top: 50px;
+}
+.mitext{
+    color: black;
+
+}
+.mbutton{
+    padding:50px 0px 0px 0px;
+}
+.imbutton{
+    background-image:linear-gradient(to left, #00f260, #0575e6);
+    color:white;
+    font-weight: bold;
+    border-radius: 21px;
+    padding:10px 10px;
+}
+@media (max-width:660px) {
+    h1{
+        font-size: 21px;
+        margin-top:auto;
+    }
+    .mitext{
+        font-size: 11px;
+    }
+    
+}
+
+</style>
+    <!-- Masters-->
+    <div class="masters">
+        <div class="opacity"> 
+       <!-- <img src="./images/masters.jpg" style="width:100%;"></div>-->
+        <div class="mastertext">
+            <h1>HOW CAN WE DO MASTERS?</h1>
+        <div class="mitext">
+        Why do you want to do Masters?<br>
+            A Master's degree helps you gain industry 
+            knowledge through internships<br>advanced projects, 
+            and has a keen focus on developing professional skills.<br> 
+            It helps you bridge the gap between student and professional life.
+        </div>
+        <div class="mbutton">
+        <a href="./updating.html"><button class="imbutton">Learn More</button></a>
+        </div>
+    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E1 Content</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/bdb9c44a6d.js" crossorigin="anonymous"></script>
+<style>
+            .logo{
+    font-size:40px;
+    color:white;
+    padding-right: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Tangerine', cursive; 
+}
+body{
+  background-color:gray;
+}
+.pl{
+    padding-left: 45%;
+}
+
+
+.ifs{
+    font-size: 18px;
+}
+ul li i{
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.bg{
+    background-color: black;
+    color:white;
+}
+ul li .bg:hover{
+    color:white;
+    background-color: #333;
+}
+.fr{
+    float:right;
+    padding-left: 6px;
+    margin-top: 2px;
+
+}
+.dropdown-menu{
+  background-color: black;
+}
+.dropdown1{
+    display:none;
+}
+.dropdown li:hover .dropdown1{
+    display:block;
+    position: absolute;
+    top:6px;
+    border-radius: 8px;
+    left:150px;
+   /* width: 80%;*/
+    /*padding:21px;*/
+}
+.dropdown1{
+  background-color: black;
+  width:100%;
+}
+.dropdown1 ul a{
+  padding-left: 10px;
+}
+.dropdown1 ul li{
+  padding:5px;
+}
+.dropdown1 ul li:hover{
+  background-color: #333;
+}
+.dropdown1 ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/*Career hover*/
+/*.careerhover{
+    display: none;
+}
+.careerhover ul{
+    display:block;
+
+}
+ ul li:hover .careerhover{
+    display:block;
+    position: absolute;
+    border-radius: 8px;
+    padding-right: 20px;
+    background-color: black;
+}
+.careerhover ul li{
+    padding: 5px;
+}
+.careerhover ul{
+  padding-left: 20px;
+}
+.careerhover ul li:hover{
+    background-color:#333;
+}*/
+.icfs{
+  font-size: 15px;
+}
+.pra{
+  padding-right: 80px;
+}
+.height{
+  height:400px;
+  width:100%;
+
+}
+.dropdown-toggle::after {
+  display: none;
+}
+abbr[title]{
+  text-decoration: none;
+}
+.fcenter{
+  text-align: center;
+  font-size: 30px;
+  background-color: wheat;
+}
+
+img{
+    position: absolute;
+}
+.relative{
+    position: relative;
+    height:5px;
+}
+.headstyle{
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    padding-top: 21px;
+}
+body{
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/btechall1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.right{
+        display:flex;
+    justify-content: flex-end;
+   justify-content: center;
+    padding-top: 12%;
+    color: #fff;
+    }
+.remove{
+  padding-top:33px;
+}
+
+
+@media (max-width:660px){
+       .headstyle{
+        padding-top: 31px;
+         
+       }
+}
+.ifs{
+    font-size: 18px;
+}
+.bg{
+    background-color: black;
+    color:white;
+}
+ul li .bg:hover{
+    color:white;
+    background-color: #333;
+}
+.dropdown-menu{
+  background-color: black;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+abbr[title]{
+  text-decoration: none;
+}
+.icfs{
+  font-size: 15px;
+}
+@media (max-width:1300px){
+    .max-widths{
+      display:none;
+    }
+  }
+   /* Media query for laptops and larger screens */
+ @media (min-width: 1025px) {
+          .card{
+    border-color: black;
+    margin-bottom: auto;
+          }
+          .careerhover{
+    display: none;
+}
+.careerhover ul{
+    display:block;
+
+}
+ ul li:hover .careerhover{
+    display:block;
+    position: absolute;
+    border-radius: 8px;
+    padding-right: 20px;
+    background-color: black;
+}
+.careerhover ul li{
+    padding: 5px;
+}
+.careerhover ul{
+  padding-left: 20px;
+}
+.careerhover ul li:hover{
+    background-color:#333;
+}
+      }
+
+
+      /* Default styles */
+
+/* For laptops and desktops */
+@media only screen and (min-width: 1025px) {
+    /* Styles for laptops and desktops */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    /* Styles for smartphones */
+    nav{
+      background-color: #89CFF0;
+    }
+    .pl{
+    padding-left: 0%;
+}
+
+    .headstyle{
+      margin-top: 30%;
+    }
+    .right{
+      margin-top: 30%;
+      margin-right: 4%;
+    }
+  
+}
+/* For tablets, iPads (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+  nav{
+    background-color: #89CFF0;
+  }
+
+    .pl{
+    padding-left: 0%;
+}
+
+    .headstyle{
+      margin-top: 15%;
+    }
+    .right{
+      margin-top: 14%;
+      margin-right: 4%;
+    }
+   
+}
+@media only screen and (max-width: 319px) {
+    /* Styles for smartwatches */
+    nav{
+      background-color: #89CFF0;
+    }
+    .pl{
+    padding-left: 0%;
+}
+.logo{
+        font-size:10px;
+    color: white;
+   /* padding-right: 30px;*/
+  /*  font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Tangerine', cursive;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 0px;
+    }
+    .smartphonecolor{
+    background-color: #fff;
+}
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+  <section class="header">
+    <nav class="navbar fixed-top navbar-expand-lg "><!--bg-info-->
+            <div class="container-fluid">
+        
+                <div class="logo">
+                <!--    <img src="./images/universitynavbarimage.jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">-->Rgukt
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse pl" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white ifs" aria-current="page" href="./index.html"><i class="fa-solid fa-house"></i><b>Home</b></a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white ifs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-book"></i>  <b>Content</b>
+                        </a>
+                        <ul class=" careerhover dropdown-menu">
+                          <li><a class="dropdown-item bg icfs" href="./E1Content.html">E1-Content</a></li>
+                          <li><a class="dropdown-item bg icfs" href="./E2Content.html">E2-Content</a></li>
+                          <li><a class="dropdown-item bg icfs" href="./E3Content.html">E3-Content</a></li>
+                          <li><a class="dropdown-item bg icfs" href="./E4Content.html">E4-Content</a></li>
+              
+                        </ul>
+                      </li>
+
+
+
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white ifs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-graduation-cap "></i><b>Career</b>
+                          </a>
+                          <ul class=" careerhover dropdown-menu">
+                            <li><a class="dropdown-item bg icfs" href="./updating.html" target="_blank">B.tech</a></li>
+                            <li><a class="dropdown-item bg icfs" href="./updating.html" target="_blank">Gate</a></li>
+                            <li><a class="dropdown-item bg icfs" href="./MsinUS.html" target="_blank">Masters</a></li>
+                            <li><a class="dropdown-item bg icfs" href="./stockmarket.html" target="_blank">Stock Market</a></li>
+                
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white ifs" aria-current="page" href="./index.html"><i class="fa-solid fa-house"></i><b>Blog</b></a>
+                          </li>
+
+
+                          <li class="nav-item dropdown max-widths">
+                                <a class="nav-link dropdown-toggle text-white ifs" href="#"><i class="fa-solid fa-phone "></i><b>Contact</b></a>
+                          </li>
+                </ul>        
+
+
+
+            
+                  
+                </div>
+        
+              
+            </div>
+
+           
+            
+
+
+      </nav>
+
+      <div class="right">
+        <h1 class="headstyle">Select your branch</h1>
+        <li class="nav-item dropdown right remove">
+          <a class="nav-link dropdown-toggle text-white ifs " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <b style="font-size: 21px;color:#fff;padding-left:10px;" class="red">B.Tech</b><i style="padding-left: 3px;color:#fff" class="fa-solid fa-caret-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><abbr title="Computer Science Engineering" class="initialism"><a class="dropdown-item bg icfs" href="https://drive.google.com/drive/folders/1Ekxxs1z2MImU7hUFnJyK4rOWtf_gX9yW" target="_blank">CSE</a></abbr></li>
+            <li><abbr title="Electronics and Communication Engineering" class="initialism"><a class="dropdown-item bg icfs" href="" target="_blank">ECE</a></abbr></li>
+            <li><abbr title="Electrical and Electronics Engineering" class="initialism"><a class="dropdown-item bg icfs" href="">EEE</a></abbr></li>
+            <li><abbr title="Civil Engineering" class="initialism"><a class="dropdown-item bg icfs" href="">CE</a></abbr></li>
+            <li><abbr title="Mechanical Engineering" class="initialism"><a class="dropdown-item bg icfs" href="">Mech</a></abbr></li>
+  
+          </ul>
+        </li>
+  
+  
+       
+        </div>
+  <!--  <nav class="navbar  bg-primary navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="./computer.jpg" alt="Logo" width="25" height="25" class="d-inline-block align-text-top">
+              Bootstrap
+            </a>
+            <div class="logo">
+              Rgukt
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white ifs" aria-current="page" href="./index.html"><i class="fa-solid fa-house"></i><b>Home</b></a>
+              </li>
+      
+      
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white ifs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-book"></i>  <b>Content</b>
+                </a>
+                <ul class=" careerhover dropdown-menu">
+                  <li><a class="dropdown-item bg icfs" href="./E1Content.html">E1-Content</a></li>
+                  <li><a class="dropdown-item bg icfs" href="./E2Content.html">E2-Content</a></li>
+                  <li><a class="dropdown-item bg icfs" href="./E3Content.html">E3-Content</a></li>
+                  <li><a class="dropdown-item bg icfs" href="./E4Content.html">E4-Content</a></li>
+      
+                </ul>
+              </li>
+      
+      
+              
+              
+      
+      
+      
+      
+      
+      
+      
+      
+      
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white ifs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-brands fa-leanpub "></i><b>Courses</b></abbr>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item bg" href="#">Full Stack<i class="fas fa-caret-right fr"></i></a>
+          
+                      
+                      <div class="dropdown1">
+                          <ul class="ibc">
+                              <li><abbr title="Hyper Text Markup Language" class="intialism"><a  href="./HTML.html" target="_blank">Html</a></abbr></li>
+                              <li><abbr title="Cascading Style Sheet" class="intialism"><a  href="./CSS.html" target="_blank">Css</a></abbr></li>
+                              <li><abbr title="Java Script" class="intialism"><a  href="./JAVASCRIPT.html" target="_blank">JS</a></abbr></li>
+                              <li><abbr title="React(Front-end Framework)" class="intialism"><a  href="./REACT.html" target="_blank">React</a></abbr></li>
+                              <li><abbr title="Node.js(JavaScript on the server-side)" class="intialism"><a  href="./NODEJS.html" target="_blank">Node.js</a></abbr></li>
+                              <li><abbr title="Structured Query Language" class="intialism"><a  href="./SQL.html" target="_blank">SQL</a></abbr></li>
+      
+                          </ul>
+      
+      
+      
+      
+      
+                      </div>
+          
+      
+      
+      
+                  </li>
+      
+                  <li><a class="dropdown-item bg" href="./C(1).html" target="_blank">C</a></li>
+                  <li><a class="dropdown-item bg" href="./C++.html"target="_blank">C++</a></li>
+                  <li><a class="dropdown-item bg" href="./JAVA.html"target="_blank">Java</a></li>
+                  <li><a class="dropdown-item bg" href="./PYTHON.html" target="_blank">Python</a></li>
+                  <li><a class="dropdown-item bg" href="./DSAinC.html" target="_blank">Ds in C</a></li>
+                  <li><a class="dropdown-item bg" href="./DSAinC++.html" target="_blank">Dsa in C++</a></li>
+                  <li><a class="dropdown-item bg" href="./DSinJAVA.html" target="_blank">Dsa in Java</a></li>
+                  <li><a class="dropdown-item bg" href="./DSinPYTHON.html" target="_blank">Dsa in Python</a></li>
+      
+                </ul>
+              </li>
+      
+      
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white ifs" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-graduation-cap "></i><b>Career</b>
+                </a>
+                <ul class=" careerhover dropdown-menu">
+                  <li><a class="dropdown-item bg icfs" href="./updating.html" target="_blank">B.tech</a></li>
+                  <li><a class="dropdown-item bg icfs" href="./updating.html"target="_blank">Gate</a></li>
+                  <li><a class="dropdown-item bg icfs" href="./MsinUS.html" target="_blank">Ms</a></li>
+                  <li><a class="dropdown-item bg icfs" href="./stockmarket.html" target="_blank">Stock Market</a></li>
+      
+                </ul>
+              </li>
+      
+      
+      
+      
+      
+              <li class="nav-item dropdown pra">
+                <a href="#" class="nav-link dropdown-toggle disabled text-white ifs" ><i class="fa-solid fa-brain"></i><b><strike>Advanced</strike></b></a>
+              </li>
+      
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white ifs" href="./About.html"target="_blank"><i class="fa-solid fa-circle-info"></i><b>About</b></a>
+              </li>
+              <li class="nav-item dropdown max-widths">
+                <a class="nav-link dropdown-toggle text-white ifs" href="#"><i class="fa-solid fa-phone "></i><b>Contact</b></a>
+              </li>
+              <li class="nav-item dropdown max-widths">
+                <a class="nav-link dropdown-toggle text-white ifs" href="#"><i class="fa-solid fa-user "></i><b>Login</b></a>
+              </li>
+      
+              
+      
+      
+      
+      
+      
+      
+      
+      
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="right">
+      <h1 class="headstyle">Select your branch</h1>
+      <li class="nav-item dropdown right remove">
+        <a class="nav-link dropdown-toggle text-white ifs " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <b style="font-size: 21px;color:black" class="red">B.Tech</b><i style="padding-left: 3px;color:#333" class="fa-solid fa-caret-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li><abbr title="Computer Science Engineering" class="initialism"><a class="dropdown-item bg icfs" href="./E1CSEpage.html" target="_blank">CSE</a></abbr></li>
+          <li><abbr title="Electronics and Communication Engineering" class="initialism"><a class="dropdown-item bg icfs" href="./E1-ECE/E1ECEpage.html" target="_blank">ECE</a></abbr></li>
+          <li><abbr title="Electrical and Electronics Engineering" class="initialism"><a class="dropdown-item bg icfs" href="">EEE</a></abbr></li>
+          <li><abbr title="Civil Engineering" class="initialism"><a class="dropdown-item bg icfs" href="">CE</a></abbr></li>
+          <li><abbr title="Mechanical Engineering" class="initialism"><a class="dropdown-item bg icfs" href="">Mech</a></abbr></li>
+
+        </ul>
+      </li>
+
+
+     
+      </div>-->
+
+
+    
+</body>
+</html>
